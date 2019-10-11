@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celig.view", "celig.view\celig.view.csproj", "{3291FE6F-AC7C-47A1-929E-E721453E1B98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celig.Controller", "celig.Controller\celig.Controller.csproj", "{96702821-95BF-4654-9B04-77DB69DC3656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celig.Model", "celig.Model\celig.Model.csproj", "{311E5FB7-2C58-4F6F-A475-6411EB026339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3291FE6F-AC7C-47A1-929E-E721453E1B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3291FE6F-AC7C-47A1-929E-E721453E1B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3291FE6F-AC7C-47A1-929E-E721453E1B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96702821-95BF-4654-9B04-77DB69DC3656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96702821-95BF-4654-9B04-77DB69DC3656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96702821-95BF-4654-9B04-77DB69DC3656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96702821-95BF-4654-9B04-77DB69DC3656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311E5FB7-2C58-4F6F-A475-6411EB026339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311E5FB7-2C58-4F6F-A475-6411EB026339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311E5FB7-2C58-4F6F-A475-6411EB026339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311E5FB7-2C58-4F6F-A475-6411EB026339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
