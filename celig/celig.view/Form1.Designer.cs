@@ -62,13 +62,14 @@
             // 
             this.TxtNome.Location = new System.Drawing.Point(15, 117);
             this.TxtNome.Name = "TxtNome";
-            this.TxtNome.Size = new System.Drawing.Size(267, 20);
+            this.TxtNome.Size = new System.Drawing.Size(266, 20);
             this.TxtNome.TabIndex = 2;
             // 
             // TxtSenha
             // 
             this.TxtSenha.Location = new System.Drawing.Point(15, 156);
             this.TxtSenha.Name = "TxtSenha";
+            this.TxtSenha.PasswordChar = '*';
             this.TxtSenha.Size = new System.Drawing.Size(267, 20);
             this.TxtSenha.TabIndex = 3;
             // 
@@ -99,6 +100,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Cadastrar-se";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 

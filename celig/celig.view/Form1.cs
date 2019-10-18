@@ -16,5 +16,13 @@ namespace celig.view
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 cad = new Form2();
+            cad.ShowDialog();
+        }
+
+
     }
 }
